@@ -18,6 +18,6 @@ export default function example(req, res) {
   //     console.error("Error:", error);
   //   });
 
-  res.status(200).json({ status: "ok", ipAddress: ip });
+  res.status(200).json({ status: "ok", request: req });
 }
 
